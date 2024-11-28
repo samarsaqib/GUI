@@ -15,7 +15,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
-
 public class Studentlogin extends Application {
     @Override
     public void start(Stage stage) throws IOException {
@@ -35,8 +34,6 @@ public class Studentlogin extends Application {
         pane.add(name, 3, 2);
         pane.add(passward, 2, 3);
         pane.add(pass, 3, 3);
-        //pane.add(login, 3, 4);
-        //pane.add(exit, 4, 4);
         pane.add(signin, 5, 4);
         try {
             File file = new File("userlogin.abc");
